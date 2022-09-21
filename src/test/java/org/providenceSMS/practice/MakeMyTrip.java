@@ -23,7 +23,9 @@ public class MakeMyTrip {
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//p[.='Mumbai, India']")).click();
-		// the creation
+
+		//element
+
 		driver.findElement(By.xpath("//span[.='To']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@placeholder='To']")).sendKeys("Delhi");	

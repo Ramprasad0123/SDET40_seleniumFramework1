@@ -10,11 +10,13 @@ import com.mysql.cj.jdbc.Driver;
 
 public class FetchDataFromDataBase {
 	public static void main(String[] args) throws SQLException  {
+		
 		//step1--->create object for the driver
 		Driver dbdriver = new Driver();
 		
 		//step2--->register the driver instance to the jdbc
 		DriverManager.registerDriver(dbdriver);
+		
 		
 		//step3--->get/ establish the database connecction
 		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tyss","root", "root");
