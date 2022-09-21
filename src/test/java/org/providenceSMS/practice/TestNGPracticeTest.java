@@ -15,7 +15,7 @@ public class TestNGPracticeTest {
 		Reporter.log("Script2",true);
 	}
 	
-	@Test(priority=3)
+	@Test(invocationCount=-1)
 	public void step3Test() {
 		Reporter.log("Script3",true);
 	}

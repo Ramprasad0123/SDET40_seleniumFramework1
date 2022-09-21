@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.providenceSMS_TestNG.CreatePettyCashTest">
+      <class name="org.providenceSMS_TestNG.CreateExamTest">
         <methods>
           <include name="classSetdown"/>
+          <include name="createExamTest"/>
           <include name="classSetUp"/>
-          <include name="createPettyCashTest"/>
         </methods>
-      </class> <!-- org.providenceSMS_TestNG.CreatePettyCashTest -->
+      </class> <!-- org.providenceSMS_TestNG.CreateExamTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
