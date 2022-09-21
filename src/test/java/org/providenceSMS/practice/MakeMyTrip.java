@@ -15,7 +15,7 @@ public class MakeMyTrip {
 		driver.get("https://www.makemytrip.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+		//make my trip...
 		driver.findElement(By.xpath("//span[text()='From']")).click();
 		Thread.sleep(2000);
 				
@@ -23,9 +23,6 @@ public class MakeMyTrip {
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//p[.='Mumbai, India']")).click();
-
-		//element
-
 		driver.findElement(By.xpath("//span[.='To']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@placeholder='To']")).sendKeys("Delhi");	
