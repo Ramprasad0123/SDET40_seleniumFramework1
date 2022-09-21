@@ -34,10 +34,8 @@ public class FetchDataFromExcel {
 				System.out.println(un);
 	   //step7---->close the workbook
 				book.close();
-<<<<<<< HEAD
-=======
+
 				//completed task
->>>>>>> branch 'master' of https://github.com/Ramprasad0123/SDET40_seleniumFramework1.git
 	  
 				
 	}
