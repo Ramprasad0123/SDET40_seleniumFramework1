@@ -17,7 +17,7 @@ public class XpathCalender {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		//dat
+		//date
 		String requiredDate = "20";  //DD
 		String requiredMonth = "December";  //ex: MMMM--->July, MMM---->Jul, MM--->07
 		String requiredYear = "2022";  //YYYY
