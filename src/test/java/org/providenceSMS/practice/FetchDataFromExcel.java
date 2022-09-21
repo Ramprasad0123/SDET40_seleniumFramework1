@@ -30,7 +30,7 @@ public class FetchDataFromExcel {
 				
 	   //step6--->fetch the data
 				String un = cell.getStringCellValue();
-				
+		//print the statement..		
 				System.out.println(un);
 	   //step7---->close the workbook
 				book.close();
