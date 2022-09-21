@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class FetchDataFromExcel {
 	public static void main(String[] args) throws EncryptedDocumentException, IOException {
-		//start task...
+		
 		//step1----> convert the physical file into java readable object
 				FileInputStream fxl=new FileInputStream("./src/test/resources/Commondatatest.xlsx");
 		
@@ -34,11 +34,5 @@ public class FetchDataFromExcel {
 				System.out.println(un);
 	   //step7---->close the workbook
 				book.close();
-     //task over
-
-	  
-				
-	}
-	
-
+     }
 }
