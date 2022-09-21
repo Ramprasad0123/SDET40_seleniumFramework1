@@ -19,7 +19,7 @@ public class FetchDataFromExcel {
 	   //step2---->open the excel workbook
 				Workbook book = WorkbookFactory.create(fxl);
 	
-	   //step3--->get the control on sheet
+	   //step3--->get the control on  sheet
 				Sheet sheet = book.getSheet("Datasheet");
 				
 	   //step4---->get the control on row
@@ -34,6 +34,10 @@ public class FetchDataFromExcel {
 				System.out.println(un);
 	   //step7---->close the workbook
 				book.close();
+<<<<<<< HEAD
+=======
+				//completed task
+>>>>>>> branch 'master' of https://github.com/Ramprasad0123/SDET40_seleniumFramework1.git
 	  
 				
 	}
