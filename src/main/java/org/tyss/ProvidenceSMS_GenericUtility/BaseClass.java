@@ -35,7 +35,6 @@ public class BaseClass {
 	protected String tpassword;
 	
 	
-	
 	@BeforeClass
 	public void classSetUp() {
 		 webdriverUtility=new WebDriverUtility();
